@@ -37,3 +37,5 @@ print("Public URL:", tunnel.public_url)
 6. **Start the development server:** !pnpm run dev
 This command starts the Bolt.DIY development server.  
 It will typically start a local web server (often using Vite) that you can access in your browser.
+
+***Example Colab Link: [Bolt Colab](https://colab.research.google.com/drive/1oJDErM2YW8-zTGgXddR1l16NoXveStS3#scrollTo=yX_Bl9-0Wata)***
