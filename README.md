@@ -1,7 +1,7 @@
 Bolt Setup Instructions
 ------------------------
 *Follow these steps to set up and run Bolt.DIY on Colab:*
-1. **Install pnpm: !npm install** -g pnpm
+1. **Install pnpm:** !npm install -g pnpm
 This command installs the pnpm package manager globally.
 
 2. **Clone the Bolt.DIY repository:** !git clone -b stable https://github.com/stackblitz-labs/bolt.diy.git
@@ -22,7 +22,7 @@ You will need an ngrok authtoken to create a public URL for your local server.
 ```
 from pyngrok import ngrok
 #Replace 'YOUR_AUTHTOKEN' with your actual ngrok authtoken
-ngrok.set_auth_token("YOUR_AUTHTOKEN")```
+ngrok.set_auth_token("YOUR_AUTHTOKEN")
 
 #Open a tunnel to port 5173 (where your Vite dev server is running)
 tunnel = ngrok.connect(5173)
